@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <title>தமிழ் கேள்வி பதில் அமைப்பு</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>🧠 தமிழ் கேள்வி-பதில்</h1>
+
+        <form method="post">
+            <label>📘 உரை:</label>
+            <textarea name="context" placeholder="உரையை இங்கே இடவும்..." required>{{ context }}</textarea>
+
+            <label>❓ கேள்வி:</label>
+            <input type="text" name="question" placeholder="உங்கள் கேள்வியை இடவும்..." value="{{ question }}" required>
+
+            <button type="submit">🔍 பதிலை காண்க</button>
+        </form>
+
+        {% if answer %}
+        <div class="chat-bubble">
+            <span class="bot">🤖 பதில்:</span>
+            <p>{{ answer }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

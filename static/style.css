@@ -1,0 +1,101 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f8f8f8;
+}
+
+textarea, input {
+    background-color: #1e1e1e !important;
+    color: white !important;
+    border-radius: 0.5rem !important;
+    padding: 0.8rem !important;
+    border: none !important;
+}
+
+.stTextInput > div > div > input {
+    background-color: #1e1e1e !important;
+    color: white !important;
+}
+
+.chat-bubble {
+    background: #2a2a2a;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    color: #f0f0f0;
+    font-size: 18px;
+}
+
+/* body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.chat-container {
+    width: 600px;
+    background-color: #1e1e1e;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+h1 {
+    text-align: center;
+    color: #f8f8f8;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 1rem;
+    background: #2b2b2b;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+textarea:focus, input:focus {
+    outline: 2px solid #a855f7;
+}
+
+button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #a855f7;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.chat-bubble {
+    background: #2a2a2a;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.bot {
+    font-weight: bold;
+    color: #38bdf8;
+} */

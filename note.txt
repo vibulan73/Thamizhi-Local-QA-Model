@@ -1,0 +1,15 @@
+pip install -r requirements.txt
+python download_model.py
+python model_handler.py
+streamlit run app.py
+streamlit run app.py
+
+
+cd your-project-folder
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/vibulan73/Thamizhi-Local-TamilQA-Model.git
+git push -u origin main
+
