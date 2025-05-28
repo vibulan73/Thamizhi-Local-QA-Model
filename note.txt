@@ -13,3 +13,13 @@ git remote add origin https://github.com/vibulan73/Thamizhi-Local-TamilQA-Model.
 git branch -M main
 git push -u origin main
 
+git status
+git add .
+git commit -m "Describe what you changed"
+git push
+
+git pull           # Optional: get latest changes if working in a team
+<make changes>
+git add .
+git commit -m "Meaningful commit message"
+git push
